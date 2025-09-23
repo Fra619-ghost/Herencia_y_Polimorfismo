@@ -1,6 +1,6 @@
 package models;
 
-//clase abstracta
+//clase abstracta que represneta un vehiculo en general
 public abstract class Vehiculo {
     String marca;
     String modelo;
@@ -19,6 +19,6 @@ public abstract class Vehiculo {
     }
 
 
-    //método abstracto
+    //método abstracto que cada subclase debe definir
     public abstract void mover();
 }

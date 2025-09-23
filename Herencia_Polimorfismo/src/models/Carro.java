@@ -1,5 +1,5 @@
 package models;
-
+//hereda de Vehiculo y adapta la interfaz combustible
 public class Carro extends Vehiculo implements Combustible {
 
     public Carro(String marca, String modelo) {
